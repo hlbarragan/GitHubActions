@@ -18,7 +18,7 @@ jobs:
       - name: Output the name of the event that triggered the workflow
         run: echo ${{ github.event_name }}
       - name: Output the name of the branch that the repository is currently referencing
-        run: echo ${{ github..head_ref }}
+        run: echo ${{ github.head_ref }}
   
     
   
