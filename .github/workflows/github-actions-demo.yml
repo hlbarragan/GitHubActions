@@ -24,7 +24,7 @@ jobs:
         run: echo ${{ github.event_name }}
       - name: Output the name of the branch that the repository is currently referencing
         run: 
-          echo "Estructura de repositorior${{ github..repository }} "
+          echo "Estructura de repositorior${{ github.repository }} "
           tree
   
     
